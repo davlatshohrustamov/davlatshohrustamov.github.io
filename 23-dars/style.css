@@ -1,0 +1,105 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	height: 100vh;
+}
+.box{
+	width: 200px;
+	height: 200px;
+	background: #000;
+	position: relative;
+	left: calc(50% - 200px / 2);
+	top: calc(50% - 200px / 2);
+}
+.img-1{
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	position: absolute;
+	left: 0;
+	z-index: 9;
+	background: #ccc;
+	left: calc(50% - 100px / 2);
+}
+.img-2{
+   width: 100px;
+  height: 100px;
+  background: #ccc;
+  border-radius: 100px;
+  position: absolute;
+  lign-items: center;
+  animation-name: misol1;
+  animation-duration:5s;
+  animation-iteration-count: infinite;
+  left: calc(50% - 100px/2);
+  top: -100px;
+}
+ .img-1{
+ 	animation: anim_img 4s infinite;
+ }
+ .img-2{
+ 	animation: misol1 4s infinite;
+ }
+
+ @keyframes anim_img{
+ 	0%{
+ 		top: -50%;
+ 		left: calc(50% - 100px / 2);
+ 	}
+ 	25%{
+ 		top: calc(50% - 100px / 2);
+ 		left: 100%;
+ 		z-index: -1;
+ 	}
+ 	50%{
+ 		top: 100%;
+ 		left: calc(50% - 100px / 2);
+ 		z-index: -1;
+ 	}
+ 	75%{
+ 		top: calc(50% - 100px / 2);
+ 		left: -100px;
+ 		z-index: -1;
+ 	}
+ 	100%{
+ 		top: -100px;
+ 		left: calc(50% - 100px / 2);
+ 		z-index: 9;
+ 	}
+ }
+
+@keyframes misol1{
+	 0%{
+	  
+	  left:calc(50% - 100px/2);
+	  top: -100px;
+	  z-index: -1;  
+	}
+	25%{
+	  
+	  left:-100px;
+	  top: calc(50% - 100px/2);
+	  z-index: -1;
+	}
+	50%{
+	  
+	  left:calc(50% - 100px/2);
+	  top:100%;
+	  z-index: 9;
+	}
+	75%{
+	  
+	  left: 100%;
+	  top:calc(50% - 100px/2);
+	  z-index: -1;
+	}
+	100%{
+	 
+	  top: -100px;
+	  left: calc(50% - 100px/2);
+	   z-index: -1;
+	}
+	}

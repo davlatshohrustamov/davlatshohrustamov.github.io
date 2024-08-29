@@ -1,0 +1,187 @@
+.quti{
+  width: 500px;
+  height: 500px;
+  background-color: blue;
+  position: relative;
+  left: calc(50% - 500px / 2);
+  top: calc(50vh - 500px / 2);
+}
+.quti>div{
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  position: absolute;
+  transition: all 1s;
+} 
+.quti-1{
+  bottom: 0;
+  right: 0;
+}
+.quti-2{
+  top: 0;
+  left: 0;
+}
+.quti-3{
+  top: 0;
+  right: 0;
+}
+.quti-4{
+  bottom: 0;
+  left: 0;
+}
+.quti-5{
+  right: calc(50% - 100px / 2);
+  bottom: calc(50% - 100px / 2);
+}
+.quti-6{
+  bottom: calc(90% - 100px / 2);
+  right: calc(50% - 100px / 2);
+}
+.quti-7{
+  top: calc(90% - 100px / 2);
+  left: calc(50% - 100px / 2);
+}
+.quti-8{
+  top: calc(50% - 100px / 2);
+  right: calc(90% - 100px / 2);
+}
+.quti-9{
+  bottom: calc(50% - 100px / 2);
+  left: calc(90% - 100px / 2);
+}
+.quti-10{
+  left: 0;
+  top: 0;
+}
+.quti-11{
+  right: 0;
+  top: 0;
+}
+.quti-12{
+bottom: 0;
+right: 0;
+}
+.quti-13{
+bottom:0;
+left:0;
+}
+.quti:hover .quti-10 {
+  left: 100px;  
+  top: 100px;
+}
+.quti:hover .quti-11{
+  right:100px;
+  top:100px;
+}
+.quti:hover .quti-12{
+  bottom: 100px;
+  right: 100px;
+}
+.quti:hover .quti-13{
+  bottom:100px;
+  left: 100px;
+}
+.quti1 {
+  width: 50px;
+  height: 50px;
+  background-color: yellow;
+  position: absolute;
+  transition: all 1s;
+}
+.quti-14{
+  left:calc(50% - 50px / 2);
+  top:calc(15% - 50px / 2);
+}
+.quti-15{
+  right: calc(50% - 50px / 2);
+  top: calc(15% - 50px / 2);
+}
+.quti-16{
+  left: calc(50% - 50px / 2);
+  top: calc(15% - 50px / 2);
+}
+.quti-17{
+  right: calc(10% - 50px / 2);
+  top: calc( 50% - 50px / 2);
+}
+.quti-18{
+  right: calc(10% - 50px / 2);
+  top: calc( 50% - 50px / 2);
+}
+.quti-19{
+  left: calc(90% - 50px / 2);
+  top: calc(50% - 50px / 2);
+}
+.quti-20{
+  right: calc(50% - 50px / 2);
+  top: calc(90% - 50px / 2);
+}
+.quti-21{
+  left: calc(50% - 50px / 2);
+  top: calc(90% - 50px / 2);
+}
+.quti-22{
+  right: calc(50% - 50px / 2);
+  top: calc(90% - 50px / 2);
+}
+.quti-23{
+  right: calc(90% - 50px / 2);
+  top: calc(50% - 50px / 2);
+}
+.quti-24{
+  right:calc(90% - 50px / 2) ;
+  top: calc(50% - 50px / 2);
+}
+.quti-25{
+  left: calc(10% - 50px/ 2);
+  top: calc(50% - 50px/ 2);
+}
+.quti:hover .quti-14{
+  left:125px;
+  top:25px;
+}
+.quti:hover .quti-15{
+  right: 225px;
+  top: 125px;
+}
+.quti:hover .quti-16{
+
+  left: 325px;
+  top: 25px;
+}
+.quti:hover .quti-17{
+  right: 25px;
+  top: 125px;
+}
+.quti:hover .quti-18{
+  right: 25px;
+  top: 325px; 
+}
+.quti:hover .quti-19{ 
+  left:325px ;
+  top:225px;
+}
+.quti:hover .quti-20{ 
+  right: 125px;
+  top: 425px;
+}
+.quti:hover .quti-21{ 
+  left: 125px;
+  top: 425px;
+}
+.quti:hover .quti-22{ 
+  right:225px ;
+  top: 325px;
+}
+.quti:hover .quti-23{ 
+  right: 425px;
+  top: 125px;
+}
+.quti:hover .quti-24{ 
+  right:425px ;
+  top: 325px;
+}
+.quti:hover .quti-25{ 
+  left:125px ;
+  top: 225px;
+}
